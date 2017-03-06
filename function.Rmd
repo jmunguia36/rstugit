@@ -1,0 +1,15 @@
+---
+title: "function"
+author: "JRM"
+date: "March 6, 2017"
+output: 
+  html_document:
+    keep_md: true
+---
+#example code for using rstudio with gitr and github
+
+```{r simple function}
+se<- function(x){
+  sd(x)/length(x)
+}
+```
